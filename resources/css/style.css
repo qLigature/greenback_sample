@@ -13,7 +13,7 @@ body::before {
 .banner-custom {
     background-size: cover;
     background-image: url("../img/more_pic/speed\ truck\ big.webp");
-    height: 90vh;
+    height: 96vh;
     position: relative;
 }
 
