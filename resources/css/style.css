@@ -1,0 +1,24 @@
+* {
+    /* border: 1px solid red; */
+}
+
+body::before {
+    display: block;
+    content: '';
+    height: 30px;
+}
+
+
+
+.banner-custom {
+    background-size: cover;
+    background-image: url("../img/more_pic/speed\ truck\ big.webp");
+    height: 90vh;
+    position: relative;
+}
+
+.banner-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
