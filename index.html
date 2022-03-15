@@ -33,18 +33,15 @@
                     <a class="nav-link text-dark" href="#products">Aggregates</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-dark" href="#">Projects</a>
+                    <a class="nav-link text-dark" href="#projects">Projects</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link text-dark" href="#">Contact</a>
                   </li>
 
-                  
                 </ul>
             </div>
             <a href="" class="btn btn-lg btn-success text-light ms-4 d-none d-md-block">Get a Quote</a>
-
-            
         </div>
     </header>
 
@@ -58,8 +55,8 @@
               <p class="lead text-center text-lg-start">We deliver high-quality materials on time, so you can focus on what's important.</p>
               <a href="" class="btn btn-lg btn-success text-light align-self-center align-self-lg-start">Reach out to us</a>
             </div>
-            </div>
           </div>
+        </div>
     </div>
 
     <!-- Benefits/Cards -->
@@ -92,7 +89,6 @@
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Iure, quas quidem possimus dolorum esse eligendi?
                 </p>
-
               </div>
             </div>
           </div>
@@ -107,7 +103,6 @@
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Iure, quas quidem possimus dolorum esse eligendi?
                 </p>
-
               </div>
             </div>
           </div>
@@ -138,11 +133,12 @@
       </div>
     </section>
 
+    <!-- Products Section -->
     <div id="products" class="p-5">
       <div class="container">
-        <h2 class="mb-5 text-center">Our Products</h2>
+        <h2 class="mb-4 text-center">Our Products</h2>
         <div class="row">
-          <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3 gy-3">
             <div class="card bg-dark text-white">
               <img src="./resources/img/products/g-1-mobile.jpg" alt="" class="card-img">
               <div class="card-img-overlay d-flex align-items-end">
@@ -150,7 +146,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3 gy-3">
             <div class="card bg-dark text-white">
               <img src="./resources/img/products/three-fourths-mobile.jpg" alt="" class="card-img">
               <div class="card-img-overlay d-flex align-items-end">
@@ -158,7 +154,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3 gy-3">
             <div class="card bg-dark text-white">
               <img src="./resources/img/products/three-eighths-mobile.jpg" alt="" class="card-img">
               <div class="card-img-overlay d-flex align-items-end">
@@ -166,7 +162,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3 gy-3">
             <div class="card bg-dark text-white">
               <img src="./resources/img/products/base-course-mobile.jpg" alt="" class="card-img">
               <div class="card-img-overlay d-flex align-items-end">
@@ -174,7 +170,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3 gy-3">
             <div class="card bg-dark text-white">
               <img src="./resources/img/products/s-1-mobile.jpg" alt="" class="card-img">
               <div class="card-img-overlay d-flex align-items-end">
@@ -182,7 +178,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3 gy-3">
             <div class="card bg-dark text-white">
               <img src="./resources/img/products/vibro-mobile.jpg" alt="" class="card-img">
               <div class="card-img-overlay d-flex align-items-end">
@@ -190,7 +186,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3 gy-3">
             <div class="card bg-dark text-white">
               <img src="./resources/img/products/boulders-mobile.jpg" alt="" class="card-img">
               <div class="card-img-overlay d-flex align-items-end">
@@ -198,7 +194,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3 gy-3">
             <div class="card bg-dark text-white">
               <img src="./resources/img/products/topsoil-mobile.jpg" alt="" class="card-img">
               <div class="card-img-overlay d-flex align-items-end">
@@ -213,15 +209,67 @@
             <a href="" class="btn btn-lg btn-success text-light mt-5">See More Products</a>
           </div>
         </div>
+
       </div>
     </div>
 
-    <div class="p-5 bg-success text-light">
+    <!-- Projects Section -->
+    <!-- see: https://raybo.org/posts/2021-03-27-consistent-height-carousels-with-css-gradients-by-hacking-the-bootstrap-5-carousel/ -->
+    <div id="projects" class="p-5 bg-success text-light">
       <div class="container">
-        <h2>Our Projects</h2>
+        <div class="row">
 
+          <div class="col-12 col-md-6 col-xl-5 offset-xl-1 d-flex flex-column justify-content-center">
+            <h2 class="mb-5 mb-md-4 text-center text-md-start">Our Projects</h2>
+            <p class="d-none d-md-block pe-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit distinctio, ducimus tempora veritatis minus quo quidem consequatur hic aut repellendus id quae deserunt illum repudiandae vero ullam, reprehenderit ipsam! Cupiditate, deserunt aliquam. Reiciendis doloremque ducimus facilis quae, dolore, exercitationem accusamus et totam sapiente est eveniet deleniti accusantium delectus! Aspernatur, consectetur!</p>
+          </div>
 
+          <div class="col-12 col-md-6 col-xl-5">
+            <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="3" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="4" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="5" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="6" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./resources/img/projects2/la-mesa.jpg" class="d-block img-fluid" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./resources/img/projects2/manila-water-pipeline.jpg" class="d-block img-fluid" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./resources/img/projects2/offloading.jpg" class="d-block img-fluid" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./resources/img/projects2/high-rise.jpg" class="d-block img-fluid" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./resources/img/projects2/more-houses.jpg" class="d-block img-fluid" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./resources/img/projects2/houses.jpg" class="d-block img-fluid" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./resources/img/projects2/landscape.png" class="d-block img-fluid" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
 
+        </div>
       </div>
     </div>
 
